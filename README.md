@@ -63,6 +63,10 @@ Construir un flujo de trabajo reproducible, modular y robusto que cubra el ciclo
   * 🏆 **Silicon Valley:** *San Jose, CA* lidera con un promedio de **$108,855 USD** (+50.9% sobre la media global).
   * 🏙️ **Volumen:** *New York, NY* concentra el mayor volumen (310 vacantes) con salarios en la media ($71,235 USD).
 
+![Salario promedio de ofertas de Data Analyst por ciudad en EE. UU.](imagenes/salario_por_ciudad.png)
+
+*Ciudades con al menos 30 ofertas. El gráfico se generó a partir de la base `DataAnalyst.db` con las mismas agregaciones de la Fase 4. Las diferencias son descriptivas y no ajustan por costo de vida.*
+
 ---
 
 ## 🛠️ Tecnologías y Metodología
@@ -81,18 +85,15 @@ Construir un flujo de trabajo reproducible, modular y robusto que cubra el ciclo
 ## 📁 Estructura del Repositorio
 
 ```text
+├── auditoria_mercado_laboral_tech.ipynb     # Pipeline ejecutable de punta a punta (Fases 1 a 4)
 ├── data/
-│   ├── DataAnalyst.csv          # Dataset crudo original (2,253 registros)
-│   └── DataAnalyst.db           # Base de datos SQLite normalizada y saneada (2,251 registros)
-├── Documentacion/
-│   ├── Planificacion/           # Planificación de fases y objetivos
-│   ├── Documentacion_Fase1.md   # Diagnóstico y perfilado
-│   ├── Documentacion_Fase2.md   # Data Wrangling y transformaciones
-│   ├── Documentacion_Fase3.md   # Persistencia relacional
-│   ├── Documentacion_Fase4.md   # Consultas analíticas
-│   └── Reporte_Final_Cierre.md  # Reporte ejecutivo y cierre del proyecto
-├── notebooks/
-│   └── auditoria_mercado_laboral_tech.ipynb  # Pipeline ejecutable de punta a punta
+│   ├── DataAnalyst.csv                      # Dataset crudo original (2,253 registros)
+│   └── DataAnalyst.db                       # Base de datos SQLite normalizada y saneada (2,251 registros)
+├── imagenes/
+│   └── salario_por_ciudad.png               # Gráfico de salarios por ciudad
+├── Planificacion y reporte de cierre/
+│   ├── Planificacion_Auditoria_Empleo_Tech.md   # Planificación de fases y objetivos
+│   └── Reporte_Final_Cierre.md                  # Reporte ejecutivo y cierre del proyecto
 └── README.md
 ```
 
@@ -102,8 +103,8 @@ Construir un flujo de trabajo reproducible, modular y robusto que cubra el ciclo
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/auditoria-mercado-laboral-tech.git
-   cd auditoria-mercado-laboral-tech
+   git clone https://github.com/Jean5011/Auditoria_mercado_laboral_tech.git
+   cd Auditoria_mercado_laboral_tech
    ```
 
 2. **Crear y activar entorno virtual:**
@@ -119,11 +120,13 @@ Construir un flujo de trabajo reproducible, modular y robusto que cubra el ciclo
 
 4. **Ejecutar el Notebook:**
    ```bash
-   jupyter notebook notebooks/auditoria_mercado_laboral_tech.ipynb
+   jupyter notebook auditoria_mercado_laboral_tech.ipynb
    ```
 
 ---
 
 ## 👨‍💻 Autor
 
-Desarrollado con foco en buenas prácticas de ingeniería de software, arquitectura de datos y modelado relacional.
+**Jean Pierre Esquen**: estudiante de la Licenciatura en Ciencia de Datos.
+
+[GitHub](https://github.com/Jean5011) · [LinkedIn](https://www.linkedin.com/in/jeanesquen)
